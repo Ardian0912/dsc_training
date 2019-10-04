@@ -7,7 +7,7 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <div style="width: 100%; text-align: center;">
+        <!-- <div style="width: 100%; text-align: center;">
             <h1 id="banner"></h1>
         </div>
         <br>
@@ -15,8 +15,20 @@
             <input type="text" placeholder="Masukan Nama Anda.." id="nama" class="form-control">
             <br>
             <button id="button" onclick="gantikalimat()" class="btn btn-md btn-primary"> Ganti </button>
+        </div> -->
+        <div style="width: 30%;margin:auto;text-align:center;">
+            <h2>Penjumlahan</h2>
+            <br>
+            <input type="text" id="angka1" class="form-control" placeholder="Masukkan angka pertama">
+            <br>
+            <input type="text" id="angka2" class="form-control" placeholder="Masukkan angka kedua">
+            <br>
+            <button class="btn btn-md btn-success" id="plus" onclick="jumlah()">Tambahkan</button>
         </div>
-
+        <div style="width: 30%; text-align:center; margin:auto;">
+            <label> Hasil :<input id="hasil" class="form-control" readonly></label>
+        </div>
+        
     </body>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
